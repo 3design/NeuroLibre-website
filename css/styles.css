@@ -576,6 +576,14 @@ section:last-of-type {
 }
 
 /*image swap*/
+.image-swap {
+    display: block;
+    width: 140px;
+    height: 100px;
+}
+.image-swap:hover {
+    background-color: red;
+}
 .image-swap:before {
     display: inline-block;
     content: '';
