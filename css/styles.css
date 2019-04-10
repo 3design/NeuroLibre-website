@@ -574,3 +574,22 @@ section:last-of-type {
     width: 100%;
     background: #343434;
 }
+
+/*image swap*/
+.image-swap:before {
+    display: inline-block;
+    content: '';
+    background: url(../test/neurolibre-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 72px;
+    height: 72px;
+}
+.image-swap:hover:before {
+    background: url(../test/neurolibre-icon-black.png);    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
